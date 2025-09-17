@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+#choose_language {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#disappearing_gradient {
+    transition-duration: 2s;
+    transition-property: all;
+    z-index: -1;
+    position: fixed;
+    width: 100lvw;
+    height: 100lvh;
+    background-color: #000;
+}
+
+.hover_for_gradient:hover > #disappearing_gradient {
+    transition-duration: 2s;
+    transition-property: all;
+    background-color: #030;
+}
+
+.main_container {
+    margin: 15lvh 15%;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    vertical-align: text-top;
+    font-family: 'Fipps';
+    font-size: 10lvw;
+}
+
+hr {
+    height: 8px;
+    border: 0;
+    background-color: white;
+    width: 94%;
+    margin: 0 3%;
+}
+
+@font-face {
+    font-family: 'Fipps';
+    src: url('Fipps-Regular.otf');
+}
