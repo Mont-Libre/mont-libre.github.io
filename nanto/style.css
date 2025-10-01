@@ -5,6 +5,16 @@ body {
     scroll-behavior: smooth;
 }
 
+.tooltip {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+}
+
+.tooltip:hover {
+    text-decoration-style: dashed;
+}
+
 #choose_language {
     width: 100%;
     display: flex;
@@ -13,7 +23,7 @@ body {
 
 #disappearing_gradient {
     transition-duration: 2s;
-    transition-property: all;
+    transition-property: background-color;
     z-index: -1;
     position: fixed;
     width: 100lvw;
@@ -23,7 +33,7 @@ body {
 
 .hover_for_gradient:hover > #disappearing_gradient {
     transition-duration: 2s;
-    transition-property: all;
+    transition-property: background-color;
     background-color: #030;
 }
 

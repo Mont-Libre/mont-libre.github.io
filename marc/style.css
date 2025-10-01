@@ -1,7 +1,16 @@
-.centerimage {
-    
+.navbar {
+    background-color: aqua;
+    height:5lvh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width:100%;
 
 }
+body {
+    margin:0 ;
+}
+
 
 .centercontainer {
 
