@@ -1,3 +1,17 @@
 .centre {
     text-align: center;
 }
+
+body {
+    background-color:indigo;
+}
+
+.img_pleine_largeur {
+    width: 50%;
+}
+
+.center_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
