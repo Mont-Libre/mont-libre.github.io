@@ -38,7 +38,7 @@ body {
 }
 
 .main_container {
-    margin: 15lvh 15%;
+    margin: 7.5lvh 7.5%;
 }
 
 h1 {
@@ -55,6 +55,10 @@ hr {
     background-color: white;
     width: 94%;
     margin: 0 3%;
+}
+
+footer {
+    margin: 7.5lvh 7.5lvw;
 }
 
 @font-face {
